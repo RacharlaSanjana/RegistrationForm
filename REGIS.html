@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rsa.css">
+<script src="hello.js"></script>
+
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class ="main"> <b>REGISTRATION FORM</b> </h1>
+    <p>Required Fields to followed by*</p>
+    <h3><b>Contact Information</b></h3>
+    <p>Name*:<input type="text" id="myText" name="name" placeholder="name"></p>
+    <p>Gender<select type="gend" id="Gen">
+                <option value="">--Select a Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+    </select>
+    </p>
+    <p class="special">Address:<textarea name="add" id="text" cols="100" rows="10"></textarea></p>
+    <p>Email:*<input type ="email" id ="email" name ="email" id="email"></p>
+<p>pincode:*<input type="number" name="pincode" id="pincode"></p>
+<p>Degree<select type="degree_type" id="degree_type">
+    <option value="">--Select a Degree--</option>
+    <option value="B.tech">B.Tech</option>
+    <option value="M.Tech">M.Tech</option>
+    <option value="BA">BA</option>
+</select>
+</p>
+<p>Branch<input type="text" name="Branch" id ="branch"></p>
+<p>Graduation Date:<input type="date" name="exp" id="gra"></p>
+<p>Course <input type="text" name="Course" id="course"></p>
+<button onclick="myFunction()">Submit</button>
+
+<div>
+    <p id="san"></p>
+    <p id="demo"> </p>
+    <p id="gen"> </p>
+    <p id="add"> </p>
+    <p id="emai"> </p>
+    <p id="pin"> </p>
+    <p id="deg"> </p>
+    <p id="grad"> </p>
+    <p id="bran"> </p>
+    <p id="cour"> </p>
+</div>
+
+</div>
+</body>
+</html>
